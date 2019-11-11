@@ -8,4 +8,4 @@ An atom built with threeJS and deployed on Reshuffle.
 
 ## Screenshots
 
-<img src="./thumbnail.png" width="50%" height="50%">
+<img src="./thumbnail.gif" width="50%" height="50%">
