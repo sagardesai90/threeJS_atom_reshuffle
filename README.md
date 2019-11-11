@@ -4,10 +4,8 @@ This is a [Reshuffle](https://reshuffle.com/) template.
 
 ## About
 
-A starting point for creating your app with Reshuffle.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An atom built with threeJS and deployed on Reshuffle.
 
 ## Screenshots
 
-<img src="./app-screen.png" width="50%" height="50%">
+<img src="./thumbnail.png" width="50%" height="50%">
