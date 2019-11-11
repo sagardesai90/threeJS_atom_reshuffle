@@ -4,7 +4,7 @@ This is a [Reshuffle](https://reshuffle.com/) template.
 
 ## About
 
-An atom built with threeJS and deployed on Reshuffle.
+An atom built with threeJS and deployed on Reshuffle. Run ```npm run start``` from the root to start the server.
 
 ## Screenshots
 
