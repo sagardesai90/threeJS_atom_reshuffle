@@ -30,7 +30,7 @@ class App extends Component {
       -1000,
       1000
     )
-    
+
     // By moving our camera's z positioning, we can increase or decrease zoom.
     camera.position.z = 2;
     scene.add(camera);
@@ -39,7 +39,7 @@ class App extends Component {
     // A canvas renderer will generate the image, drawing our models on the screen.
     var renderer = new THREE.WebGLRenderer({
       antialias: true,
-      alpha: true
+      // alpha: true
     });
 
     // Configure renderer clear color
@@ -108,7 +108,7 @@ class App extends Component {
     function createSphere(params){
       var geometry = new THREE.SphereGeometry( width / (params.r || 40), 50, 50 );
       var material = new THREE.MeshPhongMaterial({
-        color: params.color || Colors.blue,
+        color: Colors.pink,
         transparent: true,
         opacity: 0.8
       });
