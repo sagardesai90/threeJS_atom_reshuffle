@@ -17,12 +17,10 @@ class App extends Component {
     };
     
     var scene = new THREE.Scene();
-
-    // Add a camera so that we can see our 3D objects.
-    // By moving our camera's z positioning, we can increase or decrease zoom.
     var width = window.innerWidth;
     var height = window.innerHeight;
-
+    
+    // Add a camera so that we can see our 3D objects.
     console.log(width / 2);
     var camera = new THREE.OrthographicCamera(
       width / -2,
@@ -32,7 +30,8 @@ class App extends Component {
       -1000,
       1000
     )
-
+    
+    // By moving our camera's z positioning, we can increase or decrease zoom.
     camera.position.z = 2;
     scene.add(camera);
 
